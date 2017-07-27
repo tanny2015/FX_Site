@@ -130,3 +130,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# 自定义的model/数据库表 需要添加在这个位置
+AUTH_USER_MODEL = 'blog.MyUser'

@@ -1,8 +1,8 @@
-from django.db import models
 
 # Create your models here.
 
 from django.db import models
+from django.contrib.auth.models import AbstractBaseUser
 
 # 文章添加
 class Article(models.Model):
@@ -18,3 +18,14 @@ class Article(models.Model):
 
     def __str__(self):
         return self.title
+
+class MyUser(AbstractBaseUser):
+    identifier = models.CharField(max_length=40, unique=True)  # 用户唯一标识，是必须有的
+    USERNAME_FIELD = 'identifier'
+    credit = models.IntegerField('积分',default=0) # 积分字段
+
+    class Meta:
+        db_table = 'MyUser'
+
+    def __str__(self):
+        return self.USERNAME_FIELD
