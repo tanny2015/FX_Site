@@ -8,7 +8,7 @@ def home(request):
     # return render(request, 'home.html', {}) # {}里边是参数
     # render_to_response 里淘汰了context_instance，详细看这里：https://stackoverflow.com/questions/38739422/django-error-render-to-response-got-an-unexpected-keyword-argument-context-i
     context = {'time':datetime.datetime.now()}
-    return render(template_name='home.html',  context=context,request=request)
+    return render(template_name='index.html',  context=context,request=request)
 
 
 
