@@ -2,10 +2,253 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54d39e73-47c9-430d-a7a7-1bb637e64cdd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0002_myuser_credit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/apple-touch-icon-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/boostrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/badges.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/breadcrumbs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/button-groups.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/carousel.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/close.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/component-animations.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/dropdowns.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/glyphicons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/input-groups.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/jumbotron.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/labels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/media.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/alerts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/alerts.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/background-variant.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/background-variant.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/border-radius.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/border-radius.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/buttons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/buttons.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/center-block.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/center-block.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/clearfix.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/clearfix.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/forms.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/gradients.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/gradients.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/grid-framework.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/grid-framework.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/grid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/hide-text.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/hide-text.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/image.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/labels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/labels.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/list-group.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/list-group.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/nav-divider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/nav-divider.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/nav-vertical-align.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/nav-vertical-align.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/opacity.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/opacity.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/pagination.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/panels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/panels.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/progress-bar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/progress-bar.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/reset-filter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/reset-filter.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/resize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/resize.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/responsive-visibility.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/responsive-visibility.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/size.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/size.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/tab-focus.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/tab-focus.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/table-row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/table-row.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/text-emphasis.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/text-emphasis.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/text-overflow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/text-overflow.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/vendor-prefixes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/mixins/vendor-prefixes.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/modals.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/navbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/navs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/normalize.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/pager.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/panels.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/popovers.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/print.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/progress-bars.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/responsive-embed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/responsive-embed.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/responsive-utilities.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/scaffolding.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/tables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/thumbnails.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/type.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/utilities.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/variables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/variables.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap/wells.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/easy-responsive-tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/magnific-popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/megafish.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/menu_slideside.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/owl.carousel.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/owl.theme.default.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/style.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/superfish.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/css/themify-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/bootstrap/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/bootstrap/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/themify/themify.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/themify/themify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/themify/themify.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/fonts/themify/themify.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/image_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/image_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/img_large_6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/images/slide_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/easyResponsiveTabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/hoverIntent.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/inview.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/jquery.magnific-popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/jquery.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/modernizr-2.6.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/owl.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/superfish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/js/supersubs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/_bootstrap-compass.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/_bootstrap-mincer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/_bootstrap-sprockets.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/badges.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/button-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/carousel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/close.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/code.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/component-animations.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/dropdowns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/glyphicons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/input-groups.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/jumbotron.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/media.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/background-variant.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/center-block.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/grid-framework.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/grid.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/list-group.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/nav-divider.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/nav-vertical-align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/opacity.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/progress-bar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/reset-filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/resize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/responsive-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/tab-focus.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/table-row.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/text-emphasis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/text-overflow.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/mixins/vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/modals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/navbar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/navs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/pager.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/pagination.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/panels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/popovers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/print.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/progress-bars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/responsive-embed.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/responsive-utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/scaffolding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/thumbnails.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/tooltip.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/type.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/bootstrap/wells.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/static/sass/style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/elements.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/head.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/left_sidebar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/templates/right_sidebar.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/css/style.css" afterPath="$PROJECT_DIR$/blog/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/js/bootstrap.js" afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/static/js/jquery.easing.1.3.js" afterPath="$PROJECT_DIR$/blog/static/js/jquery.easing.1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/contact.html" afterPath="$PROJECT_DIR$/blog/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/index.html" afterPath="$PROJECT_DIR$/blog/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/services.html" afterPath="$PROJECT_DIR$/blog/templates/services.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,8 +292,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start_site/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -60,7 +313,7 @@
         <entry file="file://$PROJECT_DIR$/start_site/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding>
                 <element signature="e#644#676#0" expanded="true" />
               </folding>
@@ -68,31 +321,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left_sidebar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/left_sidebar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding>
+                <element signature="e#7347#7353#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/head.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="56" column="25" lean-forward="false" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -111,14 +356,17 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="855">
+              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5174#5180#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -134,7 +382,7 @@
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,10 +415,11 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/start_site/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/head.html" />
-        <option value="$PROJECT_DIR$/blog/templates/index.html" />
         <option value="$PROJECT_DIR$/blog/templates/contact.html" />
         <option value="$PROJECT_DIR$/start_site/settings.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/templates/index.html" />
+        <option value="$PROJECT_DIR$/blog/templates/base.html" />
       </list>
     </option>
   </component>
@@ -181,9 +430,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="901" />
-    <option name="y" value="57" />
-    <option name="width" value="1551" />
+    <option name="x" value="465" />
+    <option name="y" value="23" />
+    <option name="width" value="1839" />
     <option name="height" value="993" />
   </component>
   <component name="ProjectView">
@@ -240,6 +489,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="start_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="start_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,10 +812,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="901" y="57" width="1551" height="993" extended-state="0" />
+    <frame x="465" y="23" width="1839" height="993" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16898608" sideWeight="0.49" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14190318" sideWeight="0.49" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.5109344" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293617" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -722,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/left_sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -759,7 +1018,7 @@
     <entry file="file://$PROJECT_DIR$/start_site/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
           <folding>
             <element signature="e#644#676#0" expanded="true" />
           </folding>
@@ -774,34 +1033,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start_site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -813,6 +1048,51 @@
           <folding>
             <element signature="e#29#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5174#5180#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start_site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#7347#7353#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
