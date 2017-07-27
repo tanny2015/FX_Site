@@ -1,1 +1,3 @@
-<html><body>It is now {{ time }}.</body></html>
+
+{% load humanize %}
+<html><body>It is now {{ time | naturalday}}.</body></html>

@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # 默认已经安装的app
 INSTALLED_APPS = [
     'blog',
+    'django.contrib.humanize',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
