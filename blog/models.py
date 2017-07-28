@@ -14,15 +14,16 @@ class Article(models.Model):
     is_show = models.BooleanField() # 控制文章是否显示，这东西默认值是None
 
     class Meta:  # 保存到数据库中，在数据库中是一个什么名字
-        db_table = 'Article'
+        db_table = 'article'
 
     def __str__(self):
         return self.title
 
 class MyUser(AbstractUser):
+    jifen = models.IntegerField('积分', default=0)
 
     class Meta:
         db_table = 'MyUser'
 
     def __str__(self):
-        return self.id
+        return self.username

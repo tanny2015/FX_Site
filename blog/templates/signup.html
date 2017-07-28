@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load  staticfiles %}
 {% block content %}
 <body>
 	<div class="container">
@@ -7,15 +8,15 @@
 				<div class="header">
 					<div class="head-top">
 						<div class="top-menu">
-						<span class="menu"><img src="images/nav.png" alt=""/> </span>
+						<span class="menu"><img src="{% static "images/nav.png" %}" alt=""/> </span>
 							<ul>
 								<li><a href="/"><span>Home</span></a></li>
-								<li ><a href="about.html"><span>About us</span></a></li>
-								<li class="active"><a href="signup"><span>注册</span></a></li>
-								<li><a href="products.html"><span>Products</span></a></li>
-								<li class="has-sub"><a href="services.html"><span>Services</span></a></li>
-								<li><a href="typo.html"><span>typo</span></a></li>
-								<li class="last"><a href="contact.html"><span>Contact</span></a></li>
+								<li ><a href="{{ "/about" }}"><span>About us</span></a></li>
+								<li class="active"><a href="{{ "/signup" }}"><span>注册</span></a></li>
+								<li><a href="{{ "/products" }}"><span>Products</span></a></li>
+								<li class="has-sub"><a href="{{ "/services" }}"><span>Services</span></a></li>
+								<li><a href="{{ "/typo" }}"><span>typo</span></a></li>
+								<li class="last"><a href="{{ "/contact" }}"><span>Contact</span></a></li>
 							</ul>
 						</div>
 						<div class="social-icons">

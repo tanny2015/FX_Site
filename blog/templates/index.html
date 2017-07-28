@@ -12,14 +12,14 @@
 						<div class="top-menu">
 						<span class="menu"><img src="{% static "images/nav.png" %}" alt=""/> </span>
 							<ul>
-								<li class="active"><a href="{{ index.html }}"><span>Home</span></a></li>
-								<li><a href="{{ '/about.html' }}"><span>About us</span></a></li>
-								<li><a href="{{ '/signup.html' }}"><span>注册</span></a></li>
-								<li><a href="{{ '/products.html' }}"><span>Products</span></a></li>
-								<li class="has-sub"><a href="{{ '/services.html' }}"><span>Services</span></a></li>
-								<li><a href="{{ '/typo.html' }}"><span>typo</span></a></li>
-								<li class="last"><a href="{{ '/contact.html' }}"><span>Contact</span></a></li>
-								<li><a href="{{ '/logout.html' }}"><span>退出</span></a></li>
+								<li class="active"><a href="/"><span>Home</span></a></li>
+								<li><a href="{{ '/about' }}"><span>About us</span></a></li>
+								<li><a href="{{ '/signup' }}"><span>注册</span></a></li>
+								<li><a href="{{ '/products' }}"><span>Products</span></a></li>
+								<li class="has-sub"><a href="{{ '/services' }}"><span>Services</span></a></li>
+								<li><a href="{{ '/typo' }}"><span>typo</span></a></li>
+								<li class="last"><a href="{{ '/contact' }}"><span>Contact</span></a></li>
+								<li><a href="{{ '/logout' }}"><span>退出</span></a></li>
 								{% if  request.user.id %}
 								<li><span>你好:{{user.username}}</span></li>
 								{%  endif %}
@@ -62,7 +62,7 @@
 					<div class="col-md-6 interior-grid">
 						<h3>welcome</h3>
 						<div class="gallery">
-							<a href="{% static "" %}images/pic1.jpg"><img src="{% static "images/pic1.jpg" %}" class="img-responsive" alt="/" title="image-name"></a>
+							<a href="{% static "images/pic1.jpg" %}"><img src="{% static "images/pic1.jpg" %}" class="img-responsive" alt="/" title="image-name"></a>
 						</div>		
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>
 						<div class="plus_btn">

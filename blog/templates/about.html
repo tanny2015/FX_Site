@@ -1,5 +1,8 @@
+<html>
 {% extends "base.html" %}
+{% load  staticfiles %}
 {% block content %}
+
 <body>
 	<div class="container">
 		<div class="main-header">
@@ -7,14 +10,14 @@
 				<div class="header">
 					<div class="head-top">
 						<div class="top-menu">
-						<span class="menu"><img src="images/nav.png" alt=""/> </span>
+						<span class="menu"><img src="{% static "images/nav.png" %}" alt=""/> </span>
 							<ul>
 								<li><a href="/"><span>Home</span></a></li>
-								<li class="active"><a href="about.html"><span>About us</span></a></li>
-								<li><a href="products.html"><span>Products</span></a></li>
-								<li class="has-sub"><a href="services.html"><span>Services</span></a></li>
-								<li><a href="typo.html"><span>typo</span></a></li>
-								<li class="last"><a href="contact.html"><span>Contact</span></a></li>
+								<li class="active"><a href="{{ "/about" }}"><span>About us</span></a></li>
+								<li><a href="{{ "/products" }}"><span>Products</span></a></li>
+								<li class="has-sub"><a href="{{ "/services" }}"><span>Services</span></a></li>
+								<li><a href="{{ "/typo" }}"><span>typo</span></a></li>
+								<li class="last"><a href="{{ "/contact" }}"><span>Contact</span></a></li>
 							</ul>
 						</div>
 						<div class="social-icons">
@@ -35,7 +38,7 @@
 						<div class="clearfix"></div>
 					</div>
 					<div class="logo">
-							<h1><a href="index.html"><span>i</span>nland</a></h1>
+							<h1><a href="{{ "/index" }}"><span>i</span>nland</a></h1>
 					</div>
 				</div>
 				<div class="header-banner">
@@ -61,19 +64,19 @@
 							<h3>our team</h3>
 						<div class="team-grids">
 							<div class="col-md-4 team-grid">
-							<img src="images/t1.jpg" class="img-responsive" alt="" />
+							<img src="{% static "images/t1.jpg" %}" class="img-responsive" alt="" />
 					<h5>alan smith</h5>
 					<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,</p>
 
 							</div>
 							<div class="col-md-4 team-grid">
-							<img src="images/t2.jpg" class="img-responsive" alt="" />
+							<img src="{% static "images/t2.jpg" %}" class="img-responsive" alt="" />
 					<h5>lara mark</h5>
 					<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,</p>
 
 							</div>
 							<div class="col-md-4 team-grid">
-							<img src="images/t3.jpg" class="img-responsive" alt="" />
+							<img src="{% static "images/t3.jpg" %}" class="img-responsive" alt="" />
 					<h5>tom james</h5>
 					<p>Were dolor in hendrerit in vulputate velit esse molestie con sequat,</p>
 
