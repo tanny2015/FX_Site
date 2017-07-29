@@ -2,8 +2,70 @@
 <html>
 {% extends "base.html" %}
 {% load  staticfiles %}
+
+
 {% block content %}
-    <body>
+
+
+<script type="text/javascript">
+
+    function show_when_login(){ //post logout
+        alert("{{ request.user.id }}");
+        if('{{ request.user.id }}' == 'None') {
+{#            alert("({{ request.user.id }} == None)" );#}
+            return 'hidden';
+        }
+        else{
+            return "visible";
+        }
+    }
+
+
+    function show_when_logout(){ //login signup
+        alert("{{ request.user.id }}");
+        if('{{ request.user.id }}' == 'None') {
+{#            alert("({{ request.user.id }} == None)" );#}
+            return 'visible';
+        }
+        else{
+            return "hidden";
+        }
+    }
+    function start() {
+        var post = document.getElementById('post');
+        var login = document.getElementById('login');
+        var signup = document.getElementById('signup');
+        var logout = document.getElementById('logout');
+
+{#        alert(post);#}
+{#        alert(login);#}
+{#        alert(signup);#}
+{#        alert(logout);#}
+
+        if('{{ request.user.id }}' == 'None' ){//还未登录，不可以发帖不显示退出
+            post.style.display = 'none';
+            logout.style.display = 'none';
+        }else {
+            login.style.display = 'none';
+            signup.style.display = 'none';
+        }
+
+        window.reload();
+    }
+
+    window.onload = function(){
+{#        start();#}
+{#       alert(show_when_login()) ;#}
+{#       alert(show_when_logout()) ;#}
+
+    }
+
+</script>
+
+
+
+
+<body  >
 	<div class="container">
 		<div class="main-header">
 			<div class="inner-side">
@@ -12,18 +74,27 @@
 						<div class="top-menu">
 						<span class="menu"><img src="{% static "images/nav.png" %}" alt=""/> </span>
 							<ul>
+
 								<li class="active"><a href="/"><span>Home</span></a></li>
 								<li><a href="{{ '/about' }}"><span>About us</span></a></li>
-								<li><a href="{{ '/signup' }}"><span>注册</span></a></li>
-								<li><a href="{{ '/products' }}"><span>Products</span></a></li>
-								<li class="has-sub"><a href="{{ '/services' }}"><span>Services</span></a></li>
-								<li><a href="{{ '/typo' }}"><span>typo</span></a></li>
-								<li class="last"><a href="{{ '/contact' }}"><span>Contact</span></a></li>
-								<li><a href="{{ '/logout' }}"><span>退出</span></a></li>
+
+{#                                {% if equest.user.id == None %}#}
+                                <li id = 'post' ><a href="/post"><span>发帖</span></a></li>
+{#                                {% endif %}#}
+
+{#								<li id = 'post'  style="visibility: "show_when_login()""><a href="/post"><span>发帖</span></a></li>#}
+								<li ><a href="/blog"><span>博客</span></a></li>
+								<li><a href="/typo"><span>typo</span></a></li>
+								<li class="last"><a href="/contact"><span>Contact</span></a></li>
+								<li id = 'login'   ><a href="/login"><span>登录</span></a></li>
+                                <li id = 'signup'   ><a href="{{ '/signup' }}"><span>注册</span></a></li>
+								<li id = 'logout'   ><a href="/logout"><span>退出</span></a></li>
 								{% if  request.user.id %}
 								<li><span>你好:{{user.username}}</span></li>
 								{%  endif %}
-							</ul>
+                                <script type="text/javascript">
+                                    start();
+                                </script>
 
 						</div>
 						<div class="social-icons">

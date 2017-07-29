@@ -130,6 +130,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 # 自定义的model/数据库表 需要添加在这个位置
 AUTH_USER_MODEL = 'blog.MyUser'
+
+
+
+# GEOIP_PATH =BASE_DIR+"/ipdata/" # 需要知道访问ip的时候，要这个

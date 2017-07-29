@@ -23,7 +23,15 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls,name='admin'),
     url(r'^$',views.home,name='home'),
+    url(r'^index',views.home,name='home'),
     url(r'^about/', views.about,name='about'),
     url(r'^signup/', views.signup,name='signup'),
     url(r'^logout/', views.logout_view,name='logout'),
+    url(r'^login/',views.login,name="login"),
+    url(r'^post/',views.post,name="post"),
+    url(r'^blog/',views.blog,name="blog"),
+    url(r'^contact/',views.contact,name="contact"),
+    url(r'^typo/',views.typo,name="typo"),
+    url(r'^services/',views.services,name="services"),
+    url(r'^products/', views.products, name="products"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
