@@ -1,0 +1,2 @@
+# fx_site
+django
