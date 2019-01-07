@@ -1,2 +1,2 @@
-# fx_site
-django
+# FX_Site
+Django Project
